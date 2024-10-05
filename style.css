@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('background.webp') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    border-radius: 10px;
+}
+
+header {
+    background-color: rgba(167, 212, 155, 0.9); /* Soft green with slight transparency */
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #3e7047; /* Darker green */
+    font-family: 'Cursive', sans-serif;
+    font-size: 2.5rem;
+}
+
+.itinerary {
+    background-color: rgba(255, 255, 255, 0.9); /* White with slight transparency */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.item {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #3e7047; /* Darker green */
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #555;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(242, 225, 184, 0.9); /* Soft gold with slight transparency */
+    border-radius: 10px;
+}
+
+footer p {
+    font-family: 'Cursive', sans-serif;
+    color: #3e7047; /* Darker green */
+    font-size: 1.4rem;
+}
